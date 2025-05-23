@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pizzería</title>
+		<script defer type="module" src="/src/main.js"></script>
+		<link rel="stylesheet" href="./src/index.css" />
+	</head>
+	<body class="bg-background">
+		<header
+			class="relative pt-10 overflow-auto text-white bg-hero bg-cover bg-center before:content-[''] before:bg-red-950/70 before:w-full before:h-full before:block before:absolute before:z-0 before:top-0"
+		>
+			<div class="relative z-10 w-11/12 mx-auto max-w-7xl">
+				<!-- Menú de navegación -->
+				<div class="flex flex-wrap items-center justify-center lg:justify-between gap-7">
+					<h3 class="font-title text-4xl font-semibold">Llegaron las pizzzshasss</h3>
+					<nav
+						class="flex flex-wrap items-center justify-center gap-7 text-nowrap text-center font-semibold uppercase"
+					>
+						<a href="menu.html" class="hover:underline">Menú</a>
+						<a href="index.html#sucursales" class="hover:underline">Sucursales</a>
+						<a href="index.html#acerca-de" class="hover:underline">Acerca de</a>
+						<a href="#" class="hover:underline">Contacto</a>
+					</nav>
+				</div>
+
+				<!-- Contenedor de los textos -->
+				<div class="my-24 text-center lg:mb-52">
+					<p class="mb-4 font-bold uppercase">Pizzería</p>
+					<h1 class="mb-4 font-title text-6xl lg:text-8xl">Llegaron las pizzzshasss</h1>
+					<p class="font-title text-2xl lg:text-3xl">— Desde 1995 —</p>
+					<div class="mt-10 flex justify-center gap-5 uppercase">
+						<a href="menu.html" class="border border-white/20 px-4 py-2 transition-all hover:border-white"
+							>Menú</a
+						>
+						<a href="#" class="border border-white/20 px-4 py-2 transition-all hover:border-white"
+							>Contacto</a
+						>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Acerca de -->
+			<section>
+				<div class="my-10 lg:my-0 relative lg:-top-36 w-10/12 max-w-4xl mx-auto">
+					<img class="w-full relative lg:left-6" src="./img/acerca-de.png" alt="" />
+					<div class="bg-white relative lg:-left-6 -top-12 p-5 text-center shadow-md">
+						<h3 class="font-title text-3xl lg:text-5xl mb-3 lg:mb-5 text-primary">
+							Tradición, amor y sabor
+						</h3>
+						<p class="leading-8 text-black text-md lg:text-lg">
+							Disfruta cada bocado de nuestras pizzas artesanales, hechas con pasión y los mejores
+							ingredientes. <br />
+							¡Bienvenido a tu nuevo lugar favorito!
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Populares -->
+			<section class="w-11/12 max-w-7xl mx-auto mb-20 mt-0">
+				<!-- Encabezado -->
+				<div class="mb-14 text-center">
+					<h2 class="mb-4 font-title text-5xl font-bold text-primary">Pizzas Populares</h2>
+					<p class="text-lg text-black">Algunas de nuestras mejores pizzas</p>
+				</div>
+
+				<!-- Grid -->
+				<div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+					<!-- Card -->
+					<div class="mb-5 bg-white shadow-xs">
+						<!--Thumbnail-->
+						<div class="aspect-square">
+							<img class="h-auto w-full" src="./img/menu/pizza-1.png" alt="" />
+						</div>
+
+						<!--Precios-->
+						<div class="flex flex-col">
+							<h3 class="p-2 text-center text-xl font-bold text-primary">Pepperoni</h3>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Pequeña</p>
+								<p>$123.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Mediana</p>
+								<p>$153.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Grande</p>
+								<p>$223.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Familiar</p>
+								<p>$323.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="mb-5 bg-white shadow-xs">
+						<div class="aspect-square">
+							<img class="h-auto w-full" src="./img/menu/pizza-2.png" alt="" />
+						</div>
+						<div class="flex flex-col">
+							<h3 class="p-2 text-center text-xl font-bold text-primary">Napolitana</h3>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Pequeña</p>
+								<p>$123.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Mediana</p>
+								<p>$153.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Grande</p>
+								<p>$223.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Familiar</p>
+								<p>$323.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="mb-5 bg-white shadow-xs">
+						<div class="aspect-square">
+							<img class="h-auto w-full" src="./img/menu/pizza-3.png" alt="" />
+						</div>
+						<div class="flex flex-col">
+							<h3 class="p-2 text-center text-xl font-bold text-primary">Margherita</h3>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Pequeña</p>
+								<p>$123.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Mediana</p>
+								<p>$153.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Grande</p>
+								<p>$223.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Familiar</p>
+								<p>$323.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="mb-5 bg-white shadow-xs">
+						<div class="aspect-square">
+							<img class="h-auto w-full" src="./img/menu/pizza-4.png" alt="" />
+						</div>
+						<div class="flex flex-col">
+							<h3 class="p-2 text-center text-xl font-bold text-primary">Cuatro Quesos</h3>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Pequeña</p>
+								<p>$123.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Mediana</p>
+								<p>$153.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Grande</p>
+								<p>$223.00</p>
+							</div>
+							<div
+								class="flex justify-between border-b border-black/10 p-2 text-sm text-black last:border-b-0 md:text-base"
+							>
+								<p>Familiar</p>
+								<p>$323.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Botón de menú -->
+				<div class="mt-2 flex justify-center">
+					<a
+						href="menu.html"
+						class="block border border-primary p-5 font-bold uppercase transition hover:bg-primary hover:text-white"
+						>Ver menú completo</a
+					>
+				</div>
+			</section>
+
+			<!-- Galería -->
+			<section class="mb-14">
+				<div class="grid grid-cols-2 md:grid-cols-4">
+					<img
+						src="./img/galeria/galeria-1.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-2.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-3.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-4.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-5.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-6.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-7.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+					<img
+						src="./img/galeria/galeria-8.png"
+						alt=""
+						class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0"
+					/>
+				</div>
+			</section>
+
+			<!-- Sucursales -->
+			<section class="mb-14" id="sucursales">
+				<!-- Contenedor -->
+				<div class="w-11/12 max-w-7xl mx-auto">
+					<!-- Encabezado -->
+					<div class="mb-14 text-center">
+						<h2 class="mb-4 font-title text-5xl font-bold text-primary">Sucursales</h2>
+						<p class="text-lg text-black">Visitanos en nuestras sucursales</p>
+					</div>
+
+					<!-- Grid -->
+					<div class="flex flex-col gap-5">
+						<!-- Sucursal #1 -->
+						<div class="grid grid-cols-3 gap-0 md:gap-5">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29305.61751485725!2d12.50055648691985!3d44.08745417717668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cc6b3d08f9d5f%3A0x583ff6c25d40efac!2sItalia%20in%20Miniatura!5e0!3m2!1ses!2smx!4v1738956687928!5m2!1ses!2smx"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								class="h-full w-full col-span-full md:col-span-2 aspect-video md:aspect-auto"
+							></iframe>
+							<div class="col-span-full md:col-span-1 flex flex-col gap-5 p-5 text-white bg-primary">
+								<p class="text-2xl">Jacksonville, Florida</p>
+								<p class="italic">1620 Margaret St #105</p>
+								<p class="italic">C.P 32204</p>
+								<p class="flex gap-2 items-center">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="currentColor"
+										class="bi bi-telephone"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+										/>
+									</svg>
+									+51 934099199
+								</p>
+
+								<p class="flex gap-2 items-center">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="currentColor"
+										class="bi bi-telephone"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+										/>
+									</svg>
+									+51 934099199
+								</p>
+							</div>
+						</div>
+
+						<!-- Sucursal #2 -->
+						<div class="grid grid-cols-3 gap-0 md:gap-5">
+							<div
+								class="col-span-full md:col-span-1 flex flex-col gap-5 p-5 text-white bg-primary order-2 md:order-1"
+							>
+								<p class="text-2xl">Jacksonville, Florida</p>
+								<p class="italic">1620 Margaret St #105</p>
+								<p class="italic">C.P 32204</p>
+								<p class="flex gap-2 items-center">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="currentColor"
+										class="bi bi-telephone"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+										/>
+									</svg>
+									+51 934099199
+								</p>
+
+								<p class="flex gap-2 items-center">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="currentColor"
+										class="bi bi-telephone"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+										/>
+									</svg>
+									+51 934099199
+								</p>
+							</div>
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29305.61751485725!2d12.50055648691985!3d44.08745417717668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cc6b3d08f9d5f%3A0x583ff6c25d40efac!2sItalia%20in%20Miniatura!5e0!3m2!1ses!2smx!4v1738956687928!5m2!1ses!2smx"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								class="h-full w-full col-span-full md:col-span-2 aspect-video md:aspect-auto order-1 md:order-2"
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-primary p-3 text-center text-sm text-white">
+			<p>© 2025 Pizzería Llegaron las pizzzshasss - Todos los derechos reservados.</p>
+		</footer>
+	</body>
+</html>
